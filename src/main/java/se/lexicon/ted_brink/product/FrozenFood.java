@@ -6,10 +6,10 @@ public class FrozenFood extends Product{
     String fName;
     String description;
     int price;
-    String use = "Warm in micro";
+    //String use = "Warm in micro";
 
 
-    public FrozenFood(int nr, String fName, String descripton, int price) {
+    public FrozenFood(int nr, String fName, String description, int price) {
         this.nr = nr;
         this.fName = fName;
         this.description = description;
@@ -40,7 +40,7 @@ public class FrozenFood extends Product{
     }
 
     public String getDescription() {
-        return description;
+        return "Nr." + nr + ". " + fName + ", innehåll:" + description + ", price:" + price + " kr";
     }
 
     public void setDescription(String description) {
@@ -55,10 +55,20 @@ public class FrozenFood extends Product{
         this.price = price;
     }
 
+    public String description () {
+       return description + ", price: " + price;
+
+
+    }
+
+
+
+
+
 
     @Override
     public String use() {
-        return use;
+        return "Warm in micro";
     }
 
     @Override
