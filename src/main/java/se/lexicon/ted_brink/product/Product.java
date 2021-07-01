@@ -7,7 +7,7 @@ public abstract class Product {
 
 
 
-    abstract String use();
-    abstract String examine();
+    public abstract String use();
+    public abstract String examine();
 
 }

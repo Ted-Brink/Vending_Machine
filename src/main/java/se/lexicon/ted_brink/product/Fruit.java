@@ -15,9 +15,9 @@ public class Fruit extends Product {
         this.price = price;
     }
 
-    //Fruit banana = new Fruit(201, "Banana", "ecologic fruit from Panama",10);
-    //Fruit appel = new Fruit(202, "Appel", "Ingrid Marie from Sweden", 10);
-    //Fruit orange = new Fruit(203, "Orange", "From Spain", 10);
+    Fruit banana = new Fruit(201, "Banana", "ecologic fruit from Panama",10);
+    Fruit appel = new Fruit(202, "Appel", "Ingrid Marie from Sweden", 10);
+    Fruit orange = new Fruit(203, "Orange", "From Spain", 10);
 
     public int getNr() {
         return nr;

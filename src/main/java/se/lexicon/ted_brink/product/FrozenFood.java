@@ -6,8 +6,6 @@ public class FrozenFood extends Product{
     String fName;
     String description;
     int price;
-    //String use = "Warm in micro";
-
 
     public FrozenFood(int nr, String fName, String description, int price) {
         this.nr = nr;
@@ -16,9 +14,12 @@ public class FrozenFood extends Product{
         this.price = price;
     }
 
-  //  FrozenFood pizza = new FrozenFood(201,"Pizza","Ost, skinka, tomat, champion", 38);
-  //  FrozenFood pirog = new FrozenFood(202,"Pirog"," Nötkött, ost, tomatpure, lök",30);
-  //  FrozenFood köttbull = new FrozenFood(203, "Köttbullar med potatismos", "Köttbullar, potatismos, lingonsylt", 50);
+
+    //FrozenFood pizza = new FrozenFood(201,"Pizza","Ost, skinka, tomat, champion", 38);
+    //FrozenFood pirog = new FrozenFood(202,"Pirog"," Nötkött, ost, tomatpure, lök",30);
+    //FrozenFood köttbull = new FrozenFood(203, "Köttbullar med potatismos", "Köttbullar, potatismos, lingonsylt", 50);
+
+  // FrozenFood[]frozenF = {pizza, pirog, köttbull};
 
 
 
