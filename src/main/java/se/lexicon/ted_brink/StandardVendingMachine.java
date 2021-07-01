@@ -6,4 +6,7 @@ public class StandardVendingMachine implements VendingMachine {
     int depositPool;
 //    stockedProducts Product[];
 
+
+    void addCurrency(int amount){}
+
 }

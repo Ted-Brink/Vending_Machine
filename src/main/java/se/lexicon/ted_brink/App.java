@@ -12,21 +12,18 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        FrozenFood pizza = new FrozenFood(201, "Pizza", "Ost, skinka, tomat, champion", 38);
-        FrozenFood pirog = new FrozenFood(202, "Pirog", " Nötkött, ost, tomatpure, lök", 30);
-        FrozenFood köttbull = new FrozenFood(203, "Köttbullar med potatismos", "Köttbullar, potatismos, lingonsylt", 50);
+        FrozenFood pizza = new FrozenFood(101, "Pizza", "Ost, skinka, tomat, champion", 38);
+        FrozenFood pirog = new FrozenFood(102, "Pirog", " Nötkött, ost, tomatpure, lök", 30);
+        FrozenFood köttbull = new FrozenFood(103, "Köttbullar med potatismos", "Köttbullar, potatismos, lingonsylt", 50);
 
         //FrozenFood[]frozenF = {pizza, pirog, köttbull};
         Product[] varor = {pizza, pirog, köttbull};
 
-        System.out.println(pizza.use());
-        System.out.println(pizza.examine());
+        System.out.println("Pizza " + pizza.use() + " " + pizza.examine());
         System.out.println(varor[0].use() + " test array");
         System.out.println(varor[0].examine() + " test array");
 
-       // System.out.println(banana.use());  // kommer inte åt produkterna i produktklasserna
-    }}
-    /*
+
         Fruit banana = new Fruit(201, "Banana", "ecologic fruit from Panama", 10);
         Fruit appel = new Fruit(202, "Appel", "Ingrid Marie from Sweden", 10);
         Fruit orange = new Fruit(203, "Orange", "From Spain", 10);
@@ -38,6 +35,7 @@ public class App {
         Drinks öl = new Drinks(303, "Norrlands Guld", "Öl, alkoholhalt 3.5%", 20);
 
         System.out.println(öl.examine() + " " + öl.use());
-    }
 
-     */
+
+    }
+}

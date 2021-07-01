@@ -2,11 +2,12 @@ package se.lexicon.ted_brink;
 
 public interface VendingMachine {
 
-/*    static void addCurrency(int) {}  //int
-    static endSession() {}        // int
+/*  void addCurrency(int) {}            // Add to deposit pool (MoneyPool)
+    int endSession() {}        §// int
+    product request (int productNumber  // Buy a product
     getBalance() {}             // int
     getDescriptions() {}        // String
-    getProducts() {}            // String
+    String[]getProducts()           // String
     request(int)                // Product
 
         */
