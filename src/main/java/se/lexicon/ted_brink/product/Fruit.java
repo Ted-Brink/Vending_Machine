@@ -13,39 +13,7 @@ public class Fruit extends Product {
         this.description = description;
         this.price = price;
     }
-/*
-    public int getNr() {
-        return nr;
-    }
 
-    public void setNr(int nr) {
-        this.nr = nr;
-    }
-
-    public String getfName() {
-        return fName;
-    }
-
-    public void setfName(String fName) {
-        this.fName = fName;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-            */
     @Override
     public String use() {
         return "Eat the healthy fruit";

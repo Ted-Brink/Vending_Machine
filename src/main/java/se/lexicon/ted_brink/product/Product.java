@@ -1,7 +1,8 @@
 package se.lexicon.ted_brink.product;
 
 public abstract class Product {
-    protected Product() {    }
+
+
 
     public abstract String use();
     public abstract String examine();
@@ -10,6 +11,9 @@ public abstract class Product {
     String fName;
     String description;
     int price;
+
+    public Product() {
+    }
 
     public Product(int nr, String fName, String description, int price) {
         this.nr = nr;

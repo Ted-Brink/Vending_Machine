@@ -4,11 +4,16 @@ import se.lexicon.ted_brink.product.Drinks;
 import se.lexicon.ted_brink.product.FrozenFood;
 import se.lexicon.ted_brink.product.Fruit;
 import se.lexicon.ted_brink.product.Product;
+
+import java.util.Arrays;
+
 /**
  * Hello world!
  *
  */
 public class App {
+
+
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
@@ -34,7 +39,27 @@ public class App {
         Drinks fanta = new Drinks(302, "Fanta", "Kolsyrad dryck apelsinsmak: innehåll socker, smakämnen, färgämnen", 12);
         Drinks öl = new Drinks(303, "Norrlands Guld", "Öl, alkoholhalt 3.5%", 20);
 
+
         System.out.println(öl.examine() + " " + öl.use());
+
+        String[] produkter = new String[varor.length];
+        for (int i = 0; i < varor.length; i++) {
+            produkter[i] = (varor[i].getNr() + ": " + varor[i].getfName());
+        }
+       // System.out.println(Arrays.toString(produkter));
+
+        for (int i = 0; i < produkter.length; i++)
+            System.out.println(produkter[i]);
+
+        // Söka efter priset på en produkt
+        int p=0;
+        for(int i = 0; i < varor.length; i++){
+            if (varor[i].getNr()==101)
+                 p = varor[i].getPrice();
+            System.out.println(p);
+            break;
+        }
+
 
 
     }

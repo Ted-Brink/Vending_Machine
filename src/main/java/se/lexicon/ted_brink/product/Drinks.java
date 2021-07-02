@@ -7,6 +7,10 @@ public class Drinks extends Product {
     String description;
     int price;              */
 
+
+
+
+
     public Drinks(int nr, String fName, String description, int price) {
         this.nr = nr;
         this.fName = fName;
