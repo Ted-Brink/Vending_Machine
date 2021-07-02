@@ -22,7 +22,7 @@ public abstract class Product {
         this.price = price;
     }
 /*
-    FrozenFood pizza = new FrozenFood(101,"Pizza","Ost, skinka, tomat, champion", 38);
+    FrozenFood pizza = new FrozenFood(101,"Pizza","Ost, skinka, tomat, champion", 50);
     FrozenFood pirog = new FrozenFood(102,"Pirog"," Nötkött, ost, tomatpure, lök",30);
     FrozenFood köttbull = new FrozenFood(103, "Köttbullar med potatismos", "Köttbullar, potatismos, lingonsylt", 50);
 
